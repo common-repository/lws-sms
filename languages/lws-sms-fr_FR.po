@@ -1,0 +1,1088 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+# #Basics##
+#: lws-sms.php:
+msgid "LWS SMS"
+msgstr "LWS SMS"
+
+#: lws-sms.php:
+msgid "https://www.lws.fr"
+msgstr "https://www.lws.fr"
+
+#: lws-sms.php:
+msgid "With LWS SMS, create SMS Templates and configurate your website to send SMS to clients when you want it !"
+msgstr "Avec LWS SMS, créez vos templates de SMS et configurez votre site pour envoyer des SMS à vos clients quand vous le souhaitez !"
+
+#: lws-sms.php:
+msgid "Rate"
+msgstr "Noter"
+
+#: lws-sms.php:
+msgid "Copied!"
+msgstr "Copié !"
+
+#: lws-sms.php:
+msgid "Remind me later"
+msgstr "Me le rappeler plus tard"
+
+#: lws-sms.php:
+msgid "Do not ask again"
+msgstr "Ne plus demander"
+
+#: lws-sms.php:
+msgid "Thank you for using LWS SMS!"
+msgstr "Merci d'utiliser LWS SMS !"
+
+#: lws-sms.php:
+msgid "Evaluate our plugin to help others send SMS with their WooCommerce shop!"
+msgstr "Evaluez notre extension pour aider d'autres personnes à envoyer des SMS sur leur boutique WooCommerce !"
+
+#: lws-sms.php:
+msgid "<a href=\"https://wordpress.org/support/plugin/lws-sms/reviews/\" target=\"_blank\">Evaluate our plugin</a> to help others send SMS with their WooCommerce shop!"
+msgstr "<a href=\"https://wordpress.org/support/plugin/lws-sms/reviews/\" target=\"_blank\">Evaluez notre extension</a> pour aider d'autres personnes à envoyer des SMS sur leur boutique WooCommerce !"
+
+# #Basics##
+# #
+# #
+# #Config Base##
+#: config_base.php:13
+msgid "Internet SMS Sending Service"
+msgstr "Service d'envoi de SMS par internet"
+
+#: config_base.php:15
+msgid "It seems that you are not using WooCommerce. This plugin was made for WooCommerce and most functionalities will not work without it."
+msgstr "Il semblerait que vous n'utilisiez pas WooCommerce. Cette extension est prévu pour WooCommerce et la majorité des fonctionnalités ne fonctionneront pas correctement sans lui."
+
+#: config_base.php:24
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: config_base.php:24
+msgid "About this plugin"
+msgstr "A propos de cette extension"
+
+#: config_base.php:24
+msgid "General"
+msgstr "Général"
+
+#: config_base.php:25 #: lws-sms.php:125
+msgid "Templates"
+msgstr "Templates"
+
+#: config_senders.php:26 #: config_page.php:29
+msgid "Senders"
+msgstr "Expéditeurs"
+
+#: config_base.php:27
+msgid "History"
+msgstr "Historique"
+
+#: config_base.php:28
+msgid "Automation"
+msgstr "Automatisation"
+
+#: config_base.php:29
+msgid "Campaign"
+msgstr "Campagne"
+
+#: config_base.php:29
+msgid "SMS Campaigns"
+msgstr "Campagnes SMS"
+
+#: config_base.php:29
+msgid "Our plugins"
+msgstr "Nos extensions"
+
+# #Config Base##
+# #
+# #
+# #Config History##
+#: config_history.php:1 config_page.php:32 #: lws-sms.php:127
+msgid "SMS History"
+msgstr "Historique SMS"
+
+#: config_history.php:4
+msgid "Here is your SMS History, where <b>up to 5000 SMS</b> are recorded. Please be aware that older SMS will <b>not</b> be shown."
+msgstr "Voici votre historique SMS, où <b>jusqu'à 5000 SMS</b> peuvent être consultés. Veuillez noter que les SMS plus vieux ne seront <b>pas</b> affichés."
+
+#: config_history.php:5
+msgid "Everything about your SMS is visible from here: Sender, Recipient, Content, Quantity, Status and Date."
+msgstr "Tout ce qui concerne vos SMS est visible depuis cette page : Expéditeur, Destinataire, Contenu, Quantité, Statut et Date."
+
+#: config_history.php:6
+msgid "The integrated search bar will allows you to look for any SMS matching your query."
+msgstr "La barre de recherche intégrée vous permettra de rechercher tout SMS correspond à votre requête."
+
+#: config_history.php:9
+msgid "Click on the columns to sort the table."
+msgstr "Cliquez sur les colonnes pour trier le tableau."
+
+#: config_history.php:14
+msgid "Created"
+msgstr "Crée le"
+
+#: config_history.php:17
+msgid "Recipient"
+msgstr "Destinataire"
+
+#: config_history.php:20
+msgid "Message"
+msgstr "Message"
+
+#: config_history.php:23 #: config_template.php:10 config_template.php:160
+msgid "Sender"
+msgstr "Expéditeur"
+
+#: config_history.php:26
+msgid "Number of"
+msgstr "Nombre de"
+
+#: config_history.php:26
+msgid "SMS sent"
+msgstr "SMS envoyés"
+
+#: config_history.php:29
+msgid "Status"
+msgstr "Statut"
+
+# #Config History##
+# #
+# #
+# #Config Marketing##
+#: config_marketing.php:6
+msgid "This page allows you to send a SMS to any clients having authorized the reception of advertisements."
+msgstr "Cette page vous permet d'envoyer, à tout les clients l'ayant autorisé, des SMS publicitaires."
+
+#: config_marketing.php:7
+msgid "Please be aware that it may consume a large amount of credits, which will be indicated at the bottom of the page."
+msgstr "Soyez conscient que cela pourrait consommer une grande quantités de crédits, qui seront indiqués au bas de la page."
+
+#: config_marketing.php:8
+msgid "To use this service, you need to possess at least one active sendor ID and at least one client need to be in the list."
+msgstr "Pour utiliser ce service, vous avez besoin d'au moins un identifiant d'expéditeur actif et au moins un client doit être sur la liste."
+
+#: config_marketing.php:13
+msgid "Send a SMS from a template"
+msgstr "Envoyer un SMS depuis un template"
+
+#: config_marketing.php:15
+msgid "Your SMS has succesfully been sent"
+msgstr "Votre SMS a bien été envoyé"
+
+#: config_marketing.php:15
+msgid "%d SMS have succesfully been sent"
+msgstr "%d SMS ont bien été envoyés"
+
+#: config_marketing.php:15
+msgid "No SMS have been sent"
+msgstr "Aucun SMS n'a pu être envoyé"
+
+#: config_marketing.php:19
+msgid "Please choose a valid template to send a SMS"
+msgstr "Veuillez choisir un template valide pour envoyer un SMS"
+
+#: config_marketing.php:23
+msgid "You do not have enough balance to send this SMS"
+msgstr "Vous n'avez pas assez de crédits SMS pour envoyer ce SMS"
+
+#: config_marketing.php:87
+msgid "Template name:"
+msgstr "Nom du template :"
+
+#: config_marketing.php:24:46
+msgid "Send"
+msgstr "Envoyer"
+
+#: config_marketing.php:44
+msgid "Write your SMS: "
+msgstr "Entrez votre SMS : "
+
+#: config_marketing.php:46
+msgid "Write your SMS here. You can use the tags above to personnalize your SMS."
+msgstr "Entrez votre SMS ici. Vous pouvez utiliser les balises au dessus pour le personnaliser."
+
+#: config_marketing.php:50
+msgid "Insert a tag: "
+msgstr "Insérer une balise : "
+
+#: config_marketing.php:50
+msgid "Sender ID selection:"
+msgstr "Choix de l'expéditeur :"
+
+#: config_marketing.php:53
+msgid "Only to clients from a specific country"
+msgstr "Seulement aux clients d'un pays spécifique"
+
+#: config_marketing.php:54
+msgid "Only to clients already having ordered before"
+msgstr "Seulement aux clients ayant déjà commandé auparavant"
+
+#: config_marketing.php:55
+msgid "Only to new clients"
+msgstr "Seulement aux nouveaux clients"
+
+#: config_marketing.php:56
+msgid "Only to old clients"
+msgstr "Seulement aux anciens clients"
+
+#: config_marketing.php:62
+msgid " person(s) will receive this SMS"
+msgstr " personne(s) recevront ce SMS"
+
+#: config_marketing.php:63
+msgid " SMS will be sent and your balance will go down to: "
+msgstr " SMS seront envoyés et votre solde SMS tombera à : "
+
+#: config_marketing.php:195
+msgid "[Not enough credits]"
+msgstr "[Pas assez de crédits]"
+
+# #Config Marketing##
+# #
+# #
+# #Config Page##
+#: config_page.php:3
+msgid "Plugin Overview"
+msgstr "Aperçu de l'extension"
+
+#: config_page.php:6 #: config_page.php:55
+msgid "With LWS SMS, you can create your own SMS templates and configure them to be sent to your clients on specific occasions."
+msgstr "Avec LWS SMS, vous pouvez créer vos propres templates SMS et les configurer pour les envoyer aux clients à des occasions spécifiques."
+
+#: config_page.php:7 #: config_page.php:56
+msgid "This plugin allow you to launch SMS Campaigns. Be it sending advertisments, proposing special offers or giving updates about an order, you can do it with this plugin."
+msgstr "Cette extension permet de lancer des Campagnes SMS. Que ce soit des publicités, des propositions d'offres spéciales ou des mises à jour à propos d'une commande, vous pouvez le faire avec cette extension."
+
+#: config_page.php:8
+msgid "To use said plugin, you need SMS credits, recheargable at <a href='https://www.lws.fr/envoyer-sms-par-internet.php' target='_blank'>our website</a>."
+msgstr "Pour utiliser ladite extension, vous avez besoin de crédits SMS, rechargeables sur <a href='https://www.lws.fr/envoyer-sms-par-internet.php' target='_blank'> notre site</a>."
+
+#: config_page.php:9
+msgid "Please note that LWS SMS is intended to be used with WooCommerce. Please install it to access the whole functionalities of this extension."
+msgstr "Cette extension est prévu pour être utilisé avec WooCommerce. Merci de l'installer afin d'utiliser toutes les fonctionnalités de l'extension."
+
+#: config_page.php:14
+msgid "SMS Balance"
+msgstr "Solde SMS"
+
+#: config_page.php:16
+msgid "See SMS History"
+msgstr "Voir l'historique des SMS"
+
+#: config_page.php:19
+msgid "Mail alert at: "
+msgstr "Alerte e-mail à : "
+
+#: config_page.php:21
+msgid "Update alert"
+msgstr "Mettre à jour l'alerte"
+
+#: config_page.php:37
+msgid "Display every senders"
+msgstr "Afficher tout les expéditeurs"
+
+#: config_page.php:42
+msgid "See more entries"
+msgstr "Voir plus d'entrées"
+
+#: config_page.php:46
+msgid "Most recent SMS"
+msgstr "SMS les plus récents"
+
+#: config_page.php:53
+msgid "Plugin Configuration"
+msgstr "Configuration de l'extension"
+
+#: config_page.php:72
+msgid "Display the entire SMS History"
+msgstr "Afficher l'historique SMS entier"
+
+# #Config Page##
+# #
+# #
+# #Config Senders##
+#: config_senders.php:1
+msgid "Senders List"
+msgstr "Liste des expéditeurs"
+
+#: config_senders.php:1
+msgid "You reached the maximum amount of senders available. Please delete one from your account to add a new one."
+msgstr "Vous avez atteint le nombre maximal d'expéditeurs. Veuillez en supprimer un de votre compte pour en ajouter un nouveau."
+
+#: config_senders.php:4
+msgid "Find on this page every SenderID that have been accepted on your account."
+msgstr "Retrouvez sur cette page une liste de tous les IDs d'expéditeur qui ont été acceptés sur votre compte."
+
+#: config_senders.php:5
+msgid "By filling up the form, you can request another ID, but please be aware of the rules below: "
+msgstr "En remplissant ce formulaire, vous pouvez demander un autre ID, mais soyez conscient des règles ci-dessous : "
+
+#: config_senders.php:7
+msgid "Validation of your ID may take up to a few hours as it is manually checked by an operator"
+msgstr "La validation de votre ID pourrait prendre plusieurs heures car un opérateur le vérifie manuellement"
+
+#: config_senders.php:8
+msgid "Your ID must be in the alphanumeric format and 11 characters maximum"
+msgstr "Votre ID doit être au format alphanumérique et ne doit pas dépasser 11 caractères"
+
+#: config_senders.php:9
+msgid "Your ID must contains at least 1 letter"
+msgstr "Votre ID doit contenir au moins une lettre"
+
+#: config_senders.php:11
+msgid "You are a professional and want to use our service to send messages related to banks, finance, pension, state-related administration, postal delivery, ... ?"
+msgstr "Vous êtes un professionnel et voulez utilisez nos services pour envoyer des SMS liés aux domaines bancaires, financiers, des organismes de retraite, administratifs liés à un État, postiers, ...?"
+
+#: config_senders.php:12
+msgid "Please contact us via a <a href='https://sms.lws.fr/user/tickets/create-new' target='_blank'>ticket</a> on our website indicating your line of business, your company's name as well as any document proving the veracity of your claims."
+msgstr "Merci de prendre contact via un <a href='https://sms.lws.fr/user/tickets/create-new' target='_blank'>ticket</a> sur notre site indiquant votre domaine d'activité, le nom de votre entreprise ainsi que tout document prouvant la véracité de vos dires."
+
+#: config_senders.php:13
+msgid "Otherwise, such requests will be refused."
+msgstr "Autrement, ce type de requêtes sera refusé."
+
+#: config_senders.php:40
+msgid "Sender ID"
+msgstr "ID d'expéditeur"
+
+#: config_senders.php:42
+msgid "Add a sender"
+msgstr "Ajouter un expéditeur"
+
+#: config_senders.php:42
+msgid "Add"
+msgstr "Ajouter"
+
+#: config_senders.php:44
+msgid "Please read the rules before adding a new SenderID."
+msgstr "Veuillez lire les règles avant d'ajouter un nouvel ID d'expéditeur."
+
+#: config_senders.php:45
+msgid "Too much rejected requests may result in a ban."
+msgstr "Un trop grand nombre de requêtes rejetées pourrait résulter en un bannissement."
+
+# #Config Senders##
+# #
+# #
+# #Config Template##
+#: config_template.php:1
+msgid "Template management"
+msgstr "Gestion des templates"
+
+#: config_template.php:11
+msgid "This tab lets you create your own templates to send SMS. Click on the button below to open a new window where you will be able to create one. Please note that you will need an active sender ID to use our services."
+msgstr "Cet onglet vous permet de créer vos propres templates pour envoyer des SMS. Cliquez sur le bouton ci-dessous pour ouvrir une nouvelle fenêtre où vous pourrez en créer un. Veuillez noter que vous aurez besoin d'un identifiant d'expéditeur actif pour utiliser nos services."
+
+#: config_template.php:93
+msgid "Add a new template"
+msgstr "Ajouter un nouveau template"
+
+#: config_template.php:94
+msgid "Help for the template tags:"
+msgstr "Aide concernant les balises pour les templates :"
+
+#: config_template.php:22
+msgid "'Client' tags are used when your SMS is adressed to at least one client"
+msgstr "Les balises 'Client' sont utilisées quand votre SMS s'adresse à au moins un client"
+
+#: config_template.php:23
+msgid "'Order' tags are used when your SMS is about an order in general"
+msgstr "Les balises 'Commande' sont utilisées quand votre SMS traite d'une commande en général"
+
+#: config_template.php:24
+msgid "'Product' tags are to be used for the <stock alert> SMS or the <lost cart> SMS"
+msgstr "Les balises 'Produit' sont exclusivement utilisées pour les SMS concernant le stock ou les paniers abandonnés"
+
+#: config_template.php:25
+msgid "'Coupon' tags are used when your SMS is about a coupon"
+msgstr "Les balises 'Code promo' sont utilisées quand votre SMS traite d'un code promo"
+
+#: config_template.php:26
+msgid "'Miscelleanous' tags can be used no matter the SMS"
+msgstr "Les balises 'Divers' peuvent être utilisées dans tous les templates"
+
+#: config_template.php:27
+msgid "'Daily Logs' tags can be used when sending daily SMS to yourself"
+msgstr "Les balises 'Rapports journalier' sont utilisées exclusivement lorsque vous envoyez des rapports journaliers"
+
+#: config_template.php:35
+msgid "Edit template:"
+msgstr "Éditez le template :"
+
+#: config_template.php:35
+msgid "Create your own template"
+msgstr "Créez votre propre template"
+
+#: config_template.php:41
+msgid "Enter your template name:"
+msgstr "Entrez le nom de votre template :"
+
+#: config_template.php:42
+msgid "Enter a name"
+msgstr "Entrez un nom"
+
+#: config_template.php:46
+msgid "Select you sender ID:"
+msgstr "Sélectionnez un ID d'expéditeur :"
+
+#: config_template.php:298
+msgid "Not used"
+msgstr "Non utilisé"
+
+#: config_template.php:303
+msgid "Client"
+msgstr "Client"
+
+#: config_template.php:303
+msgid "Order"
+msgstr "Commande"
+
+#: config_template.php:303
+msgid "Product"
+msgstr "Produit"
+
+#: config_template.php:303
+msgid "Coupon"
+msgstr "Code promo"
+
+#: config_template.php:303
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: config_template.php:303
+msgid "Daily logs"
+msgstr "Rapports journaliers"
+
+#: config_template.php:72 #: config_template.php:234
+msgid "Name"
+msgstr "Nom"
+
+#: config_template.php:73
+msgid "First name"
+msgstr "Prénom"
+
+#: config_template.php:74
+msgid "Address"
+msgstr "Adresse"
+
+#: config_template.php:78
+msgid "Price"
+msgstr "Prix"
+
+#: config_template.php:79
+msgid "Num Cmd"
+msgstr "Numéro de Commande"
+
+#: config_template.php:83
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: config_template.php:84
+msgid "Product Price"
+msgstr "Prix du produit"
+
+#: config_template.php:85
+msgid "Product Description"
+msgstr "Description du produit"
+
+#: config_template.php:86
+msgid "Cart Content"
+msgstr "Contenu du panier"
+
+#: config_template.php:90
+msgid "Coupon Code"
+msgstr "Code promo"
+
+#: config_template.php:91
+msgid "Coupon Description"
+msgstr "Description du code promo"
+
+#: config_template.php:92
+msgid "Coupon Value"
+msgstr "Valeur du code promo"
+
+#: config_template.php:96
+msgid "Date"
+msgstr "Date"
+
+#: config_template.php:97
+msgid "Website Name"
+msgstr "Nom du site"
+
+#: config_template.php:98
+msgid "Website URL"
+msgstr "URL du site"
+
+#: config_template.php:102
+msgid "Lost Carts"
+msgstr "Paniers perdus"
+
+#: config_template.php:103
+msgid "Amount"
+msgstr "Montant"
+
+#: config_template.php:14
+msgid "Orders"
+msgstr "Commandes"
+
+#: config_template.php:105
+msgid "New Clients"
+msgstr "Nouveaux clients"
+
+#: config_template.php:106
+msgid "Best seller"
+msgstr "Meilleures ventes"
+
+#: config_template.php:225 #: config_template.php:263
+msgid "Edit"
+msgstr "Éditer"
+
+#: config_template.php:226
+msgid "Close"
+msgstr "Fermer"
+
+#: config_template.php:113
+msgid "Write your SMS template:"
+msgstr "Entrez le template de votre SMS :"
+
+#: config_template.php:114
+msgid "Write your SMS template here. Use the variables on the side to further personnalize your SMS."
+msgstr "Entrez votre template ici. Utilisez les variables sur le côté pour personnaliser encore plus votre SMS."
+
+#: config_template.php:116 #: config_marketing.php:
+msgid " character(s) | "
+msgstr " caractère(s) | "
+
+#: config_template.php:116 config_marketing.php:
+msgid "If you are using tags, please be aware that this value is but an approximation as the real text behind the tags could be longer or shorter."
+msgstr "Si vous utilisez des balises, soyez conscient que cette valeur n'est qu'une approximation, le texte derrière les balises pourrait être plus long ou plus court."
+
+#: config_template.php:130
+msgid "Save the template"
+msgstr "Enregistrer le template"
+
+#: config_template.php:240
+msgid "Used"
+msgstr "Utilisé"
+
+#: config_template.php:243
+msgid "Actions"
+msgstr "Actions"
+
+#: config_template.php:264
+msgid "Delete"
+msgstr "Supprimer"
+
+#: config_template.php:265
+msgid "Are you sure you want to delete ?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce template ?"
+
+# #Config Template##
+# #
+#: campaign.php:264
+msgid "Sender: "
+msgstr "Expéditeur : "
+
+#: campaign.php:264
+msgid "Filters: "
+msgstr "Filtres : "
+
+# #
+# #Account Checkbox Admin##
+#: account_checkbox.php:1
+msgid "API Settings"
+msgstr "Paramètres de l'API"
+
+#: account_checkbox.php:6 #: account_checkbox_client.php:6
+msgid "Your settings have been updated"
+msgstr "Vos paramètres ont été mis à jour"
+
+#: account_checkbox.php:14
+msgid "You do not have any templates. Please create at least one to use this functionality."
+msgstr "Vous ne possédez aucun template. Merci d'en créer au moins un pour utiliser ces fonctionnalités."
+
+#: account_checkbox.php:14
+msgid "Check when are SMS sent to clients: "
+msgstr "Choisir quand des SMS sont envoyés aux clients : "
+
+#: account_checkbox.php:17
+msgid "Enter your phone number to receive SMS: "
+msgstr "Entrez votre numéro de téléphone pour recevoir des SMS : "
+
+#: account_checkbox.php:19 #:
+msgid "Send a SMS when: "
+msgstr "Envoyer un SMS quand : "
+
+#: account_checkbox.php:23:82
+msgid "Select a template: "
+msgstr "Sélectionnez un template : "
+
+#: account_checkbox.php:38:97
+msgid "Select a sender: "
+msgstr "Sélectionnez un expéditeur : "
+
+#: account_checkbox.php:50
+msgid "Alert after: "
+msgstr "Alerte après : "
+
+#: account_checkbox.php:56:58
+msgid " hours"
+msgstr " heures"
+
+#: account_checkbox.php:63
+msgid "Next check: "
+msgstr "Prochaine vérification : "
+
+#: account_checkbox.php:86:131
+msgid "Saved"
+msgstr "Sauvegardé"
+
+#: account_checkbox.php:108
+msgid "Next log: "
+msgstr "Prochain rapport : "
+
+#: account_checkbox.php:73
+msgid "Check when are SMS sent to you: "
+msgstr "Choisir quand des SMS vous sont envoyés : "
+
+#: account_checkbox.php:78
+msgid "Send a SMS: "
+msgstr "Envoyer un SMS : "
+
+#: account_checkbox.php:117 #: account_checkbox_client.php:30
+msgid "Update"
+msgstr "Mettre à jour"
+
+# #Account Checkbox Admin##
+# #
+# #
+# #Account Checkbox##
+#: account_checkbox_client.php:13
+msgid "Please fill in your phone number to access the SMS Marketing options"
+msgstr "Renseignez votre numéro de téléphone pour accéder aux options de SMS marketing"
+
+#: account_checkbox_client.php:15
+msgid "Check when you want to receive SMS: "
+msgstr "Choisir quand recevoir des SMS : "
+
+#: account_checkbox_client.php:38
+msgid "This option has not been activated on this website. Please try again later."
+msgstr "Cette option n'a pas été activée sur ce site. Merci de réessayer ultérieurement."
+
+# #Account Checkbox##
+# #
+# #
+# #Lws Plugin##
+#: lws-sms.php:48
+msgid "Low SMS Balance Alert"
+msgstr "Alerte de solde SMS faible"
+
+#: lws-sms.php:49
+msgid ""
+"Hello, \n"
+"You have reached the threshold defined for your SMS Balance. \n"
+"Please recharge by going on the LWS website. \n"
+"Cordialy, \n"
+"LWS. \n"
+"This is an automated email, please do not respond."
+msgstr ""
+"Bonjour, \n"
+"Vous avez atteint la limite définie pour votre solde SMS. \n"
+"Merci de recharger en vous rendant sur le site LWS. \n"
+"Cordialement, \n"
+"LWS. \n"
+"Ceci est un message automatique, merci de ne pas y répondre."
+
+#: lws-sms.php:92
+msgid " | Sales: "
+msgstr " | Ventes : "
+
+#: lws-sms.php:228
+msgid "LWS SMS Settings"
+msgstr "Paramètres de LWS SMS"
+
+#: lws-sms.php:124
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: lws-sms.php:126
+msgid "SendersID List"
+msgstr "Liste des IDs expéditeurs"
+
+#: lws-sms.php:255
+msgid "Invalid username or API Key"
+msgstr "Nom d'utilisateur ou clé API invalide"
+
+#: lws-sms.php:258
+msgid "Please fill in your username"
+msgstr "Veuillez rentrer votre nom d'utilisateur"
+
+#: lws-sms.php:261
+msgid "Please fill in your API Key"
+msgstr "Veuillez rentrer votre clé API"
+
+#: lws-sms.php:265
+msgid "Something went wrong with our API"
+msgstr "Un problème est survenu avec notre API"
+
+#: lws-sms.php:333
+msgid "This model already exist, choose another name"
+msgstr "Ce template existe déjà, merci de choisir un autre nom"
+
+#: lws-sms.php:397
+msgid "Your request for a Sender ID has been acknowledged. Please wait for an operator to validate it."
+msgstr "Votre requête pour un nouvel ID d'expéditeur a été prise en compte. Merci d'attendre sa validation par un opérateur."
+
+#: lws-sms.php:401 #: lws-sms.php:406
+msgid "Your Sender ID must only contain alphanumerical characters and at least 1 letter."
+msgstr "Votre ID ne doit contenir que des caractères alphanumériques et posséder au moins une lettre."
+
+#: lws-sms.php:446
+msgid "Order completed"
+msgstr "Commande terminée"
+
+#: lws-sms.php:446
+msgid "Order processing"
+msgstr "Commande en cours"
+
+#: lws-sms.php:446 #: lws-sms.php:1631
+msgid "Order cancelled"
+msgstr "Commande annulée"
+
+#: lws-sms.php:446 #: lws-sms.php:852
+msgid "'Product in stock"
+msgstr "Produit en stock"
+
+#: lws-sms.php:446 #
+msgid "New coupon"
+msgstr "Nouveau code promo"
+
+#: lws-sms.php:446 #
+msgid "Cart abandonned"
+msgstr "Panier abandonné"
+
+#: lws-sms.php:449
+msgid "New order"
+msgstr "Nouvelle commande"
+
+#: lws-sms.php:449
+msgid "Daily Logs"
+msgstr "Rapport journalier"
+
+#: lws-sms.php:1549
+msgid "Alert SMS Settings"
+msgstr "Paramètres des Alertes SMS"
+
+#: lws-sms.php:1611
+msgid "Your lost cart"
+msgstr "Votre panier abandonné"
+
+#: lws-sms.php:1630
+msgid "Order shipped"
+msgstr "Commande expédiée"
+
+#: lws-sms.php:1630
+msgid "Payment accepted"
+msgstr "Paiement accepté"
+
+#: lws-sms.php:1631
+msgid "Product in stock"
+msgstr "Produit en stock"
+
+#: lws-sms.php:1631
+msgid "New coupon available"
+msgstr "Nouveau code promo disponible"
+
+#: lws-sms.php:1631
+msgid "Cart has been abandonned"
+msgstr "Panier a été abandonné"
+
+#: lws-sms.php:1024:1026
+msgid "Send alert when product back in stock"
+msgstr "Envoyer une alerte quand le produit est de retour en stock"
+
+#: lws-sms.php:1040
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: lws-sms.php:595 #: lws-sms.php:619 lws-sms.php:645
+msgid "Allow access to SMS marketing such as alerts when your order is delivered"
+msgstr "Permet l'accès aux SMS marketing, tel que des alertes quand votre commande est livrée"
+
+#: lws-sms.php:596 #: lws-sms.php:619 lws-sms.php:646 #:account_checkbox.php:20
+msgid "Do not add the country code to your number."
+msgstr "N'ajoutez pas le code pays au numéro."
+
+#: lws-sms.php:566+:
+msgid "I agree to receive marketing communications by SMS"
+msgstr "J'accepte de recevoir des communications marketing par SMS"
+
+# #LWS Plugin##
+# #
+# #
+# #Welcome##
+#: welcome.php:6
+msgid "What is LWS SMS ?"
+msgstr "Qu'est-ce que LWS SMS ?"
+
+#: welcome.php:8
+msgid "LWS SMS is an auxiliary LWS service, renowned web hosting company. This platform lets you send SMS fast and easily to your customers ay an unbeatable price. With this plugin, you direct use this service on your website; send SMS by Internet and maintain your account up to date at the same place. "
+msgstr "LWS SMS est un service auxiliaire de LWS, un service d'hébergement web renommé. Cette plateforme vous permet d'envoyer des SMS facilement et rapidement à vos clients à un prix imbattable. Avec cette extension, vous utilisez ce service directement sur votre site, envoyez des SMS par Internet et maintenez votre compte à jour au même endroit. "
+
+#: welcome.php:12
+msgid "Send SMS to your clients now!"
+msgstr "Envoyez des SMS à vos clients maintenant !"
+
+#: welcome.php:14
+msgid "Here is a preview of what you can do with your new plugin: "
+msgstr "Voici un aperçu de ce que vous pouvez faire avec votre nouvelle extension : "
+
+#: welcome.php:17
+msgid "Create your own sender IDs that will be shown in your SMS"
+msgstr "Créer votre propre identifiant d'expéditeur qui sera affiché dans vos SMS"
+
+#: welcome.php:20
+msgid "Create personnalized SMS templates with tags to make sure all your SMS are unique and tailored for your clients"
+msgstr "Créer des templates SMS personnalisés avec des balises permettant d'assurer que chaque SMS est unique et fait sur-mesure pour chaque client"
+
+#: welcome.php:23
+msgid "Send SMS to your clients at precise moment such as when an order is validated or whenever you want in not time"
+msgstr "Envoyer des SMS à vos clients à des moments précis, tel que lorsqu'une commande est validée ou quand vous le souhaitez, en un temps record"
+
+#: welcome.php:26
+msgid "Send a massive amount of SMS at the same time to all your client, be it for advertisement or announcement, with no limitations whatsoever as long as you have credits"
+msgstr "Envoyer une grande quantité de SMS en même temps à tout vos clients, que ce soit de la publicité ou une annonce sans limitations, tant que vous avez des crédits SMS"
+
+#: welcome.php:29
+msgid "Keep an eye on your account, such as your balance or history at all time with dedicated tabs"
+msgstr "Garder un oeil sur votre compte, tel que votre solde ou votre historique d'envoi à tout moment dans les onglets dédiés"
+
+#: welcome.php:32
+msgid "SMS History, Sender List, Low Balance Alert, ... Everything you need to manage your account are found here directly on your site"
+msgstr "Historique SMS, liste des expéditeurs, alerte de solde faible... Tout ce dont vous avez besoin pour gérer votre compte se trouve ici-même sur votre site"
+
+#: welcome.php:38
+msgid "Why choose LWS?"
+msgstr "Pourquoi choisir LWS ?"
+
+#: welcome.php:40
+msgid "We offer premium quality for our SMS, making sure that your SMS will be sent with utmost care and priority."
+msgstr "Nous offrons une qualité de SMS premium, assurant un envoi prioritaire et efficace de tout vos SMS."
+
+#: welcome.php:41
+msgid "There is no registration cost and our staff will always help you if needed. Just go on our <a href='https://www.lws.fr/contact_formulaire.php' target='_blank'>contact page</a> to fill in the form or ask a question on our LiveChat."
+msgstr "Il n'y a pas de coût d'inscription et notre équipe est toujours disponible pour vous aider. Rendez-vous sur notre <a href='https://www.lws.fr/contact_formulaire.php' target='_blank'>page de contact</a> pour remplir un ticket d'aider ou poser une question sur notre LiveChat."
+
+#: welcome.php:42
+msgid "With a very low cost of 8 cents per SMS in more than 180 countries with not additional cost, LWS is the best way to take your company to the next level."
+msgstr "Avec un coût minuscule de 8 centimes par SMS dans plus de 180 pays différents sans coût additionnel, LWS est le meilleure moyen de faire passer votre entreprise au niveau supérieur."
+
+#: welcome.php:44
+msgid "Advantages of doing SMS Marketing"
+msgstr "Avantages de faire du marketing par SMS"
+
+#: welcome.php:46
+msgid "In contrast to older method such as e-mail or flyers, SMS are more modern and efficient: everyone has a phone, nowadays, so it is way more impactful."
+msgstr "Contrairement aux vieilles méthodes tel que l'email ou les flyers, les SMS sont plus modernes et efficaces : presque tout le monde a un téléphone, de nos jours, donc un SMS a bien plus d'impact."
+
+#: welcome.php:47
+msgid "Furthermore, it is not intrusive because people have to agree to receive these ads."
+msgstr "De plus, ce n'est pas intrusif du fait que les clients doivent accepter manuellement de recevoir ces SMS."
+
+#: welcome.php:51
+msgid "Getting started"
+msgstr "Débuter"
+
+#: welcome.php:53
+msgid "No cost, no subscription, pay only what you consume: Start using LWS SMS now and get your first credits on our website <a href='https://www.lws.fr/envoyer-sms-par-internet.php' target='_blank'>here</a>!"
+msgstr "Pas de frais ou d'inscription, payez ce que vous aller consommer : Commencez à utiliser LWS SMS dès maintenant et achetez vos premiers crédits SMS sur notre <a href='https://www.lws.fr/envoyer-sms-par-internet.php' target='_blank'>site web</a> !"
+
+#: welcome.php:54
+msgid "To use this plugin, you need to have a <q>LWS SMS account</q> linked to your website. Buying your first credits will automatically create one for you."
+msgstr "Pour utiliser cette extension, vous devez posséder un <q>compte LWS SMS</q> lié à votre site. Acheter vos premiers crédits en créera un pour vous automatiquement."
+
+#: welcome.php:74
+msgid "To get disconnected or change accounts, click here: "
+msgstr "Pour vous déconnecter ou changer de compte, cliquez ici : "
+
+#: welcome.php:72
+msgid "Disconnexion"
+msgstr "Déconnexion"
+
+#: welcome.php:75
+msgid "Disconnect"
+msgstr "Se déconnecter"
+
+#: welcome.php:62
+msgid "Enter your username"
+msgstr "Entrez votre nom d'utilisateur"
+
+#: welcome.php:63
+msgid "Enter your API Key"
+msgstr "Entrez votre clé API"
+
+#: welcome.php:65
+msgid "Log in"
+msgstr "Se connecter"
+
+#: welcome.php:67
+msgid "You can find your API Key in the <q>SMS Api</q> section on your <a href='https://sms.lws.fr/' target='_blank'>dashboard</a>."
+msgstr "Vous pouvez trouver votre Clé API dans la section <q>SMS Api</q> de votre <a href='https://sms.lws.fr/' target='_blank'>tableau de bord</a>."
+
+#: welcome.php:70
+msgid "If you need help setting up this plugin, check out the <a href='https://aide.lws.fr/base/E-commerce/Outils-Marketing-Referencement-web/Comment-installer-le-plugin-LWS-SMS-sur-votre-boutique-en-ligne-PrestaShop' target='_blank'>documentation</a> online."
+msgstr "Si vous avez besoin d'aide pour mettre en place cette extension, rendez-vous sur la <a href='https://aide.lws.fr/base/E-commerce/Outils-Marketing-Referencement-web/Comment-installer-le-plugin-LWS-SMS-sur-votre-boutique-en-ligne-PrestaShop' target='_blank'>documentation en ligne</a>."
+
+# #
+# ## Tabs ###
+# #
+#: tabs.php:
+msgid "Discover LWS efficient, fast and secure web hosting!"
+msgstr "Découvrez les hébergements web performants, rapides et sécurisés de LWS !"
+
+#: tabs.php:
+msgid "15% off your WordPress-optimized hosting with the code: "
+msgstr "15% de remise sur votre hébergement optimisé WordPress avec le code promo : "
+
+#: tabs.php:
+msgid "Let's go!"
+msgstr "J'en profite !"
+
+#: tabs.php:
+msgid "by"
+msgstr "par"
+
+#: tabs.php:
+msgid "recommended"
+msgstr "recommandé"
+
+#: tabs.php:
+msgid "Toolkits and shortcuts to manage, secure and optimise your WordPress website."
+msgstr "Ensemble d'outils et raccourcis pour gérer, sécuriser et optimiser votre site WordPress."
+
+#: tabs.php:
+msgid "Install"
+msgstr "Installer"
+
+#: tabs.php:
+msgid "Automatically manage your LWSCache when editing pages, posts, ... and purge it."
+msgstr "Gérez automatiquement votre cache LWS Cache lorsque vous éditez vos pages, articles,… et purgez-le."
+
+#: tabs.php:
+msgid "Clean your WordPress website in a few clics to gain in speed: posts, medias..."
+msgstr "Nettoyez votre site WordPress en quelques clics afin de gagner en rapidité : articles, médias..."
+
+# #
+# ## Plugins ###
+# #
+#: plugins.php:
+msgid "Discover our plugins"
+msgstr "Découvrez nos extensions"
+
+#: plugins.php:
+msgid "This plugin lets you boost your website's <strong>loading times</strong> thanks to our tools: caching, media optimisation, files minification and concatenation..."
+msgstr "Cette extension vous permet d'obtenir d'améliorer les <strong>temps de chargement</strong> de votre site grâce aux outils disponibles : mise en cache, optimisation des médias, minification et concaténation des fichiers..."
+
+#: plugins.php:
+msgid "We, at LWS, have developped a few different plugins for WordPress that you may find below."
+msgstr "Chez LWS, nous avons développé différentes extensions pour WordPress que vous pouvez trouver ci-dessous."
+
+#: plugins.php:
+msgid "You just have to click on the \"Install now\" button to get them for free."
+msgstr "Vous avez juste à cliquer sur le bouton \"Installer maintenant\" pour les obtenir gratuitement."
+
+#: plugins.php:
+msgid "This plugin, designed especially for WooCommerce, allows you to <b>send SMS to your customers automatically.</b>"
+msgstr "Cette extension, désigné spécifiquement pour WooCommerce, vous permet d'<b>envoyer des SMS à vos clients automatiquement.</b>"
+
+#: plugins.php:
+msgid "You will need an account at LWS and enough balance to actually send SMS."
+msgstr "Vous aurez besoin d'un compte chez LWS et suffisamment de crédits SMS pour pouvoir envoyer des SMS."
+
+#: plugins.php:
+msgid "You can create personnalized templates, manage your SMS and sender IDs and more!"
+msgstr "Vous pouvez créer des templates personnalisés, gérer vos SMS et identifiants d'expéditeurs et plus encore !"
+
+#: plugins.php:
+msgid "Install now"
+msgstr "Installer maintenant"
+
+#: plugins.php:
+msgid "Activate"
+msgstr "Activer"
+
+#: plugins.php:
+msgid "Activated"
+msgstr "Activé"
+
+#: plugins.php:
+msgid "Install in progress..."
+msgstr "Installation en cours..."
+
+#: plugins.php:
+msgid "Activation in progress..."
+msgstr "Activation en cours..."
+
+#: plugins.php:
+msgid "Failed to download"
+msgstr "Echec du téléchargement"
+
+#: plugins.php:
+msgid "This plugin <strong>hide your administration page</strong> (wp-admin) and lets you <strong>change your login page</strong> (wp-login). It offers better security as hackers will have more trouble finding the page."
+msgstr "Cette extension <strong>cache votre page d'administration</strong> (wp-admin) et vous laisse <strong>changer votre page de connexion</strong> (wp-login). Il vous offre une meilleure sécurité car les pirates auront plus de mal à trouver la bonne page."
+
+#: plugins.php:
+msgid "This plugin lets you <strong>clean your WordPress website</strong> in a few clics to gain speed: posts, comments, terms, users, settings, plugins, medias, files."
+msgstr "Cette extension vous permet de <strong>nettoyer votre site WordPress</strong> en quelques clics afin de gagner en rapidité : articles, commentaires, termes, utilisateurs, paramètres, extensions, médias, fichiers."
+
+#: plugins.php:
+msgid "This plugin, designed specifically for WooCommerce, lets you <strong>send SMS automatically to your customers</strong>. You will need an account at LWS and enough credits to send SMS. Create personnalized templates, manage your SMS and sender IDs and more!"
+msgstr "Cette extension, désigné spécifiquement pour WooCommerce, vous permet d'<strong>envoyer des SMS à vos clients automatiquement</strong>. Vous aurez besoin d'un compte LWS et suffisamment de crédits SMS pour envoyer des SMS. Créez des templates personnalisés, gérez vos SMS et identifiants d'expéditeurs et plus encore !"
+
+#: plugins.php:
+msgid "With this plugin, you can add banners and widgets on your website and use those with your <strong>affiliate account LWS</strong>. Earn money and follow the evolution of your gains on your website."
+msgstr "Avec cette extension, vous pouvez ajouter des bannières et widgets sur votre site pour les utiliser avec votre <strong>compte affilié LWS</strong>. Gagnez de l'argent et suivez l'évolution de vos gains sur votre site."
+
+#: plugins.php:
+msgid "Based on the Varnich cache technology and NGINX, LWSCache let you <strong>speed up the loading of your pages</strong>. This plugin helps you automatically manage your LWSCache when editing pages, posts... and purging all your cache. Works only if your server use this cache."
+msgstr "Basé sur la technologie Varnish cache et NGINX, LWScache permet d’<strong>accélérer la vitesse de chargement de vos pages Web</strong>. Cette extension vous aide à gérer automatiquement votre cache LWSCache lorsque vous éditez vos pages, articles… et purger tout votre cache. Fonctionne si votre serveur utilise aussi ce cache."
+
+#: plugins.php:
+msgid "This plugin provides you with several tools and shortcuts to manage, secure and optimise your WordPress website. Updating plugins and themes, accessing informations about your server, managing your website parameters, etc... Personnalize every aspect of your website!"
+msgstr "Cette extension offre plusieurs outils et raccourcis pour gérer, sécuriser et optimiser votre site WordPress. Mettre à jour les extensions et thèmes, accéder aux informations sur votre serveur, gérer les paramètres de votre site, etc... Personnalisez chaque aspect de votre site web !"
+
+#: plugins.php:
+msgid "At LWS, we have developped several plugins for WordPress that you may find below. Click on the \"Install\" button to get those freely."
+msgstr "Chez LWS, nous avons développé différentes extensions pour WordPress que vous pouvez trouver ci-dessous. Cliquez sur le bouton \"Installer\" pour les obtenir gratuitement."
+
+#: plugins.php:
+msgid "Failed"
+msgstr "Echec"
+
+#: plugins.php:
+msgid "With this plugin, you can add banners and widgets on your website to use with your <b>LWS affiliate account</b>."
+msgstr "Avec cette extension, vous pouvez ajouter des bannières et widgets sur votre site pour les utiliser avec votre <b>compte affilié LWS</b>."
+
+#: plugins.php:
+msgid "Earn money and keep track of your gains directly on your website."
+msgstr "Gagnez de l'argent et suivez l'évolution de vos gains sur votre site."
+
+#: plugins.php:
+msgid "Based on Varnish cache and Nginx, LWSCache speed up the loading of your webpages. This plugin help you automatically manage your LWSCache when you edit your pages, posts, messages..."
+msgstr "Basé sur la technologie Varnish cache et Nginx, LWScache permet d’accélérer la vitesse de chargement de vos pages Web. Cette extension vous aide à gérer automatiquement votre cache LWSCache lorsque vous éditez vos pages, articles, messages…"
+
+#: plugins.php:
+msgid "It provide a way to purge all your cache but will only work on server using this system."
+msgstr "Cela vous permet de purger tout votre cache mais cela ne fonctionne que si votre serveur utilise aussi ce système de cache."

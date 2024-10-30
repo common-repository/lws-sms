@@ -1,0 +1,33 @@
+.success_message{
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-color: rgb(9, 204, 51);
+    border-left-width: 1px;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 5px 0px 25px;
+    padding: 10px 12px;
+}
+
+/*.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--lws-sms a::before{
+    content: "\f3cd"
+}*/
+
+.countryCode_select{
+    display: inline-block;
+    max-width: 135px;
+    /* margin-right: 130px; */
+}
+
+.input_phone_sms{
+    display: inline-block;
+    max-width: 220px;
+}
+
+.checkbox_sms_client{
+    width: fit-content;
+    margin-top: -1px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
